@@ -52,3 +52,22 @@ print(name.capitalize())
 name1 = "obi is a boy"
 name2 = "ada is a girl"
 print(name1 + " " + name2)
+
+# BOOLEAN
+# print(bool("hello world"))
+# print(bool(0))
+# print(bool(5==7))
+
+# Identity Operator
+x=y=5
+# print(x is y)
+x=6
+y=5
+# print(x is y)
+# print("ada")
+name="ada"
+# print(name)
+mylist=["banana", "orange"]
+mylist.append("grape")
+mylist.pop(0)
+print(mylist)
